@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tema para desaparecer el actionbar -->
+    <style name="Theme.Baazar.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="baazar_design_text">
+        <item name="android:fontFamily">@font/poppinsbold</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:textColor">@color/blue_design</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="boton_takelook">
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="android:fontFamily">@font/poppinssemibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/blue_design</item>
+    </style>
+
+    <style name="button_sign_in_style">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/poppinssemibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/blue_design</item>
+    </style>
+
+    <style name="Sign_Up_login">
+        <item name="android:fontFamily">@font/poppinssemibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
